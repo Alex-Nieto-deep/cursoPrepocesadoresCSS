@@ -1,6 +1,13 @@
--var titulo = "Título Principal"
+-var tituloP = "Título Principal"
 -var titulos = ["Subtitulo 1", "Subtitulo 2", "Subtitulo 3"]
 -var usuario = "Alex"
+mixin caja(titulo)
+	.caja 
+		.caja__imagen: img(src="images/imagen.png")
+		.caja__contenido 
+			h3 #{titulo}
+			p Lorem ipsum dolor sit amet.
+
 doctype html
 html
 	head
@@ -16,11 +23,11 @@ html
 		section.intro 
 			.intro__imagen: img(src="images/imagen.png")
 			.intro__contenido 
-				h2 #{titulo}
+				h2 #{tituloP}
 				p. 
 					Lorem ipsum dolor sit amet 
 					consectetur adipisicing.
 				a.boton Leer más
-		ul 
+		main.contenido 
 			each titulo in titulos 
-				li=titulo
+				+caja(titulo)
