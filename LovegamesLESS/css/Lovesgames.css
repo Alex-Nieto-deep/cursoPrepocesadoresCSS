@@ -28,7 +28,7 @@ h3 {
   width: 100%;
   height: 624px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 .intro__contenido {
   width: 50%;
@@ -38,7 +38,7 @@ h3 {
   left: 0;
   right: 0;
   text-align: center;
-  color: #ffffff;
+  color: #FFF;
 }
 .intro__categoria {
   font-family: 'Oswald', sans-serif;
@@ -67,4 +67,16 @@ h3 {
 }
 .intro__autor span {
   display: inline-block;
+}
+.articulo--principal {
+  max-width: 660px;
+  margin: 0 auto;
+}
+.articulo--principal h2 {
+  margin: 40px 0 40px 0;
+  font-size: 50px;
+  text-align: center;
+}
+.articulo--principal h3 {
+  color: #8841da;
 }
