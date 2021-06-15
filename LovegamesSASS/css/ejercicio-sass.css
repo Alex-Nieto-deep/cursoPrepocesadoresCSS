@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 main {
@@ -19,27 +19,26 @@ main {
 .perfil {
   width: 50%;
   padding-top: 50px;
+  color: #fff;
+  background-color: #8841DA;
 }
-
 .perfil__avatar {
   display: block;
   margin: 0 auto;
   border-radius: 50em;
 }
-
 .perfil__nombre {
   text-transform: uppercase;
   text-align: center;
   font-size: 20px;
+  font-family: "Oswald", sans-serif;
 }
-
 .perfil__titulo {
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
   font-size: 12px;
 }
-
 .perfil__boton {
   display: block;
   width: 100px;
@@ -50,5 +49,32 @@ main {
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: #fff;
 }
-/*# sourceMappingURL=ejercicio-sass.css.map */
+
+.estadistica--perfil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 90px;
+  padding-top: 15px;
+  margin: 0 auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.estadistica--perfil h3 {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+}
+.estadistica--perfil span {
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+}
