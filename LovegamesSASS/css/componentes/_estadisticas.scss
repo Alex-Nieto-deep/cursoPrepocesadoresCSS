@@ -1,0 +1,24 @@
+
+.estadistica--perfil {
+	display: flex;
+	height: 90px;
+	padding-top: 15px;
+	margin: 0 auto;
+	justify-content: space-around;
+	border-radius: 20px;
+	background-color: $color-claro;
+	color: $color-primario;
+	h3 {
+		font-size: 20px;
+		font-weight: 600;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: $Fuente2;
+	}
+	span {
+		font-size: 12px;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: $Fuente2;
+	}
+}
