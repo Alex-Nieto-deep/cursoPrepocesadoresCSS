@@ -1,3 +1,18 @@
+h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 25px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -28,10 +43,10 @@ main {
   border-radius: 50em;
 }
 .perfil__nombre, .perfil__minibio h2 {
-  text-transform: uppercase;
   text-align: center;
   font-size: 20px;
   font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
 }
 .perfil__titulo, .perfil__minibio h3 {
   text-transform: uppercase;
@@ -48,9 +63,9 @@ main {
   padding-top: 15px;
   border-radius: 20px;
   text-decoration: none;
-  text-transform: uppercase;
   text-align: center;
   font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
   color: #fff;
   background-color: rgba(51, 51, 51, 0.2);
   border: 2px solid rgba(255, 255, 255, 0.3);
@@ -80,14 +95,14 @@ main {
   font-size: 20px;
   font-weight: 600;
   text-align: center;
-  text-transform: uppercase;
   font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
 }
 .estadistica--perfil span {
   font-size: 12px;
   text-align: center;
-  text-transform: uppercase;
   font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
 }
 
 .ubicacion--perfil {
@@ -146,10 +161,10 @@ main {
 }
 .galeria h2 {
   margin-bottom: 10px;
-  text-transform: uppercase;
   font-weight: 600px;
   font-size: 20px;
   font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
 }
 .galeria img {
   border-radius: 20px;
